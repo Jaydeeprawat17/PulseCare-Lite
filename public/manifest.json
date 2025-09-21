@@ -1,0 +1,49 @@
+{
+  "name": "PulseCare Lite",
+  "short_name": "PulseCare",
+  "description": "Your mental wellness companion - track moods, practice mindfulness, and build healthy habits",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#7c8db5",
+  "orientation": "portrait-primary",
+  "categories": ["health", "wellness", "lifestyle"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "390x844",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick mood check",
+      "short_name": "Mood",
+      "description": "Quickly log your current mood",
+      "url": "/?shortcut=mood",
+      "icons": [{ "src": "/favicon.ico", "sizes": "32x32" }]
+    },
+    {
+      "name": "Breathing exercise",
+      "short_name": "Breathe",
+      "description": "Start a calming breathing session",
+      "url": "/breathing?shortcut=breathe",
+      "icons": [{ "src": "/favicon.ico", "sizes": "32x32" }]
+    }
+  ]
+}
